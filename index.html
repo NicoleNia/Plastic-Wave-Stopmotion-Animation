@@ -35,13 +35,13 @@
 				     <th>Strength(s), Weakness(es), Vulnerability(ies)</strong></th>
 				  </tr></h4>
 				  <tr><h5>
-				     <td><strong>Protagonist</strong><br>The “Point of View” character. The pursuit of their goal provides the force to move your story forward.  They have the most at stake if they fail to achieve that goal.
-				     <td><strong>The piranhas in the tank.</strong><br>If the hand doesn’t take the plastic out of the tank, they stay annoyed; if they succeed, they become more comfortable. <br>Goal: To remove the plastic
+				     <td><h4><strong>Protagonist</strong></h4><br>The “Point of View” character. The pursuit of their goal provides the force to move your story forward.  They have the most at stake if they fail to achieve that goal.
+				     <td><strong>The Piranhas in the Tank</strong><br>If the hand doesn’t take the plastic out of the tank, they stay annoyed; if they succeed, they become more comfortable. <br>Goal: To remove the plastic
 				     <td><strong>Strength:</strong><br>Scary(?)<br><b>Weakness:</b><br>Remove the plastic themselves<br><strong>Vulnerability:</strong><br>The plastic
 				  </tr>
 				  <tr>
-				     <td><strong>Antagonist</strong><br>The character whose pursuit of a mutually exclusive goal blocks the protagonist from achieving their goal.
-				     <td><strong>The plastic</strong><br>[The piranhas are upset at the plastic, not the person, but the person doesn't see it that way at first.]<br>Makes the piranhas hostile; in turn, scaring the protagonist<br>Goal: To pollute the tank
+				     <td><h4><strong>Antagonist</strong></h4><br>The character whose pursuit of a mutually exclusive goal blocks the protagonist from achieving their goal.
+				     <td><strong>The Plastic</strong><br>[The piranhas are upset at the plastic, not the person, but the person doesn't see it that way at first.]<br>Makes the piranhas hostile; in turn, scaring the protagonist<br>Goal: To pollute the tank
 				     <td><strong>Strength:</strong><br>Upsets the piranhas<br><strong>Weaknesses:</strong>Can be taken out of the tank; is a inanimate object<br><strong>Vulnerability:</strong><br>N/A
 				 </tr></h5>
 				</table>
@@ -49,88 +49,87 @@
 		<h2>Day 2</h2>
 			The second day, we worked on progamming our lighting. In my groups case, we had already decided we would be going with my idea, plastic pollution, so we needed to program something that would toggle between light, giving the illusion of waves and getting brighter systematically. So, with the help MakeCode, we created two types of code: <br>
 			
-forever(function () {
-   light.showRing(
-   `blue blue blue white white white white blue blue blue`
-   )
-   light.setBrightness(40)
-   pause(500)
-   light.showRing(
-   `blue blue white white white white white white blue blue`
-   )
-   light.setBrightness(50)
-   pause(500)
-   light.showRing(
-   `blue white white white blue blue white white white blue`
-   )
-   light.setBrightness(60)
-   pause(500)
-   light.showRing(
-   `white white white blue blue blue blue white white white`
-   )
-   light.setBrightness(70)
-   pause(500)
-   light.showRing(
-   `white white blue blue blue blue blue blue white white`
-   )
-   pause(500)
-   light.setBrightness(70)
-   light.showRing(
-   `white blue blue blue white white blue blue blue white`
-   )
-   pause(500)
-   light.setBrightness(60)
-   light.showRing(
-   `blue blue blue white white white white blue blue blue`
-   )
-   pause(500)
-   light.setBrightness(50)
-   pause(500)
-})
+forever(function () { <br>
+   light.showRing( <br>
+   `blue blue blue white white white white blue blue blue`<br>
+   )<br>
+   light.setBrightness(40)<br>
+   pause(500)<br>
+   light.showRing(<br>
+   `blue blue white white white white white white blue blue`<br>
+   )<br>
+   light.setBrightness(50)<br>
+   pause(500)<br>
+   light.showRing(<br>
+   `blue white white white blue blue white white white blue`<br>
+   )<br>
+   light.setBrightness(60)<br>
+   pause(500)<br>
+   light.showRing(<br>
+   `white white white blue blue blue blue white white white`<br>
+   )<br>
+   light.setBrightness(70)<br>
+   pause(500)<br>
+   light.showRing(<br>
+   `white white blue blue blue blue blue blue white white`<br>
+   )<br>
+   pause(500)<br>
+   light.setBrightness(70)<br>
+   light.showRing(<br>
+   `white blue blue blue white white blue blue blue white`<br>
+   )<br>
+   pause(500)<br>
+   light.setBrightness(60)<br>
+   light.showRing(<br>
+   `blue blue blue white white white white blue blue blue`<br>
+   )<br>
+   pause(500)<br>
+   light.setBrightness(50)<br>
+   pause(500)<br>
+})<br>
 
+one mimicked the sun in clear water...<br>
 
-one mimicked the sun in clear water...
-
-forever(function () {
-   light.showRing(
-   `blue blue blue green green green green blue blue blue`
-   )
-   light.setBrightness(40)
-   pause(500)
-   light.showRing(
-   `blue blue green green green green green green blue blue`
-   )
-   light.setBrightness(50)
-   pause(500)
-   light.showRing(
-   `blue green green green blue blue green green green blue`
-   )
-   light.setBrightness(60)
-   pause(500)
-   light.showRing(
-   `green green green blue blue blue blue green green green`
-   )
-   light.setBrightness(70)
-   pause(500)
-   light.showRing(
-   `green green blue blue blue blue blue blue green green`
-   )
-   pause(500)
-   light.setBrightness(70)
-   light.showRing(
-   `green blue blue blue green green blue blue blue green`
-   )
-   pause(500)
-   light.setBrightness(60)
-   light.showRing(
-   `blue blue blue green green green green blue blue blue`
-   )
-   pause(500)
-   light.setBrightness(50)
-   pause(500)
-})
+forever(function () {<br>
+   light.showRing(<br>
+   `blue blue blue green green green green blue blue blue`<br>
+   )<br>
+   light.setBrightness(40)<br>
+   pause(500)<br>
+   light.showRing(<br>
+   `blue blue green green green green green green blue blue`<br>
+   )<br>
+   light.setBrightness(50)<br>
+   pause(500)<br>
+   light.showRing(<br>
+   `blue green green green blue blue green green green blue`<br>
+   )<br>
+   light.setBrightness(60)<br>
+   pause(500)<br>
+   light.showRing(<br>
+   `green green green blue blue blue blue green green green`<br>
+   )<br>
+   light.setBrightness(70)<br>
+   pause(500)<br>
+   light.showRing(<br>
+   `green green blue blue blue blue blue blue green green`<br>
+   )<br>
+   pause(500)<br>
+   light.setBrightness(70)<br>
+   light.showRing(<br>
+   `green blue blue blue green green blue blue blue green`<br>
+   )<br>
+   pause(500)<br>
+   light.setBrightness(60)<br>
+   light.showRing(<br>
+   `blue blue blue green green green green blue blue blue`<br>
+   )<br>
+   pause(500)<br>
+   light.setBrightness(50)<br>
+   pause(500)<br>
+})<br>
 						 
-and the other mimicked it in polluted waters.  
+and the other mimicked it in polluted waters. 
 
 
 
