@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <script src="https://cdn.jsdelivr.net/gh/ncase/nutshell/nutshell.js"></script> 
+  <head> 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name=”author” content=”Your Name”>
@@ -22,8 +21,8 @@
 	<h3> Our stop-motion animation,<i> Plastic Wave</i>, is meant to help viewers visualize and understand the effects of water pollution on the environment and its organisms. Water pollution, of any form, negatively affects the wildlife and health of the ocean. It can never be reversed, but with the awareness and action of the people, it can be forestalled.</h3> 
 
 	<h2><br><strong>⸻ The Timeline ⸻</strong>
-		<h2>:Day 1</h2>
-		     <h4> Initially, the animation was meant to depict a piranha tank that slowly got littered over time. Eventually, once the pirnahas were swimming in their and other filth, a hand would reach in to clean the tank. The piranhas would be wary at first, but accept the work of the hand. After all of the litter was cleaned out of the tank, the piranhas would offer their treasure to the hand, and the story would come to a close. </h4>
+		<h2>Day 1</h2>
+		     <h4> The first day, we created the intial drafts and storyboard of our animation. Orignally, the animation was meant to depict a piranha tank that slowly got littered over time. Eventually, once the pirnahas were swimming in their and other filth, a hand would reach in to clean the tank. The piranhas would be wary at first, but accept the work of the hand. After all of the litter was cleaned out of the tank, the piranhas would offer their treasure to the hand, and the story would come to a close. </h4>
 			
 			<h3>Initial Storyboard</h3>
 		<src="20230117_095820.jpg" alt="Animation Storyboard width="400" height"600">
@@ -48,10 +47,90 @@
 				</table>
 											    
 		<h2>Day 2</h2>
-						
+			The second day, we worked on progamming our lighting. In my groups case, we had already decided we would be going with my idea, plastic pollution, so we needed to program something that would toggle between light, giving the illusion of waves and getting brighter systematically. So, with the help MakeCode, we created two types of code: <br>
+			
+forever(function () {
+   light.showRing(
+   `blue blue blue white white white white blue blue blue`
+   )
+   light.setBrightness(40)
+   pause(500)
+   light.showRing(
+   `blue blue white white white white white white blue blue`
+   )
+   light.setBrightness(50)
+   pause(500)
+   light.showRing(
+   `blue white white white blue blue white white white blue`
+   )
+   light.setBrightness(60)
+   pause(500)
+   light.showRing(
+   `white white white blue blue blue blue white white white`
+   )
+   light.setBrightness(70)
+   pause(500)
+   light.showRing(
+   `white white blue blue blue blue blue blue white white`
+   )
+   pause(500)
+   light.setBrightness(70)
+   light.showRing(
+   `white blue blue blue white white blue blue blue white`
+   )
+   pause(500)
+   light.setBrightness(60)
+   light.showRing(
+   `blue blue blue white white white white blue blue blue`
+   )
+   pause(500)
+   light.setBrightness(50)
+   pause(500)
+})
 
 
+one mimicked the sun in clear water...
 
+forever(function () {
+   light.showRing(
+   `blue blue blue green green green green blue blue blue`
+   )
+   light.setBrightness(40)
+   pause(500)
+   light.showRing(
+   `blue blue green green green green green green blue blue`
+   )
+   light.setBrightness(50)
+   pause(500)
+   light.showRing(
+   `blue green green green blue blue green green green blue`
+   )
+   light.setBrightness(60)
+   pause(500)
+   light.showRing(
+   `green green green blue blue blue blue green green green`
+   )
+   light.setBrightness(70)
+   pause(500)
+   light.showRing(
+   `green green blue blue blue blue blue blue green green`
+   )
+   pause(500)
+   light.setBrightness(70)
+   light.showRing(
+   `green blue blue blue green green blue blue blue green`
+   )
+   pause(500)
+   light.setBrightness(60)
+   light.showRing(
+   `blue blue blue green green green green blue blue blue`
+   )
+   pause(500)
+   light.setBrightness(50)
+   pause(500)
+})
+						 
+and the other mimicked it in polluted waters.  
 
 
 
