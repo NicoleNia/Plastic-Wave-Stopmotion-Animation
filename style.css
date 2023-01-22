@@ -5,6 +5,8 @@ body {
   background-image: url("unnamed.png");
 }
 
+h1 {text-align: center;}
+
 .center {
   margin: auto;
   width: 50%;
