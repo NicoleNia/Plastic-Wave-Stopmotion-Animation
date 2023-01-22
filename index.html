@@ -41,34 +41,30 @@
   font-size: 50px;
 }
 
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333;
-  font-size: 17px;
-  width: 25%
+* {box-sizing: border-box}
+body {font-family: Arial, Helvetica, sans-serif;}
+
+.navbar {
+  width: 100%;
+  background-color: #555;
+  overflow: auto;
 }
 
-li {
+.navbar a {
   float: left;
-}
-
-li a {
-  display: block;
+  padding: 12px;
   color: white;
-  text-align: center;
-  padding: 14px 16px;
   text-decoration: none;
+  font-size: 17px;
+  width: 25%; /* Four links of equal widths */
+  text-align: center;
 }
 
-li a:hover {
-  background-color: #111;
+.navbar a:hover {
+  background-color: #000;
 }
-	    
-.active {
-  color: white;
+
+.navbar a.active {
   background-color: #04AA6D;
 }
 
